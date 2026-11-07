@@ -1,0 +1,64 @@
+
+
+   
+.vidio-title
+   {
+    font-family:Arial;
+    font-size:18px;
+    font-weight:bold;
+    width:300px;
+    line-height:23px;
+    margin-bottom:5px;
+}
+.vidio-status
+{
+    font-family:Arial;
+    font-size:11px;
+    color:rgb(69, 66, 66);
+    margin-top:0px;
+}
+.vidio-author {
+    font-family:Arial;
+    font-size:14px;
+    color:rgb(69, 66, 66);
+    margin-bottom:0px;
+    margin-top:20px;
+    
+}
+
+.vidio-description
+{
+font-family:Arial;
+font-size:16px;
+color:rgb(69, 66, 66);
+width:300px;
+margin-top:20px;
+line-height:20px;
+}
+
+
+
+    .text-1
+    {background-color:rgb(186, 36, 41);
+        color:white;
+        width:450px;
+        padding-top:14px;
+        padding-bottom:14px;
+        padding-left:9px;
+        padding-right:9px;
+        text-align:center;
+        margin-top:15px;
+       cursor:pointer;
+    
+} 
+.span-example
+{
+   
+ cursor:pointer;
+        margin-left:12px;
+   
+}
+.span-example:hover
+{
+ text-decoration:underline;
+}
