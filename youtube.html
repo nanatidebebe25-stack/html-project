@@ -10,7 +10,8 @@
         }
         
         .first-vid2,.first-vid3{
-           display:inline-block;}
+           display:block;}
+           
            .video1{
             width:300px;
             display:inline-block;
@@ -21,6 +22,14 @@
            .search-bar{
             display:block;
            }
+           .channel-image{
+            display:inline-block;
+            width:20px;
+        
+           }
+           .channel-info{
+            display:inline-block;
+           }
         
     </style>
     </head>
@@ -29,10 +38,20 @@
         <body><input  class="search-bar" type="text" placeholder="search">
             
         <div class="video1">
-             <img class="thumbnails" src= "thumbnail/2.jpeg">   
+            <div>
+                <img class="thumbnails" src= "thumbnail/2.jpeg"> </div>
+            
+                <div class="channel-image"><img src="thumbnail/9.png"></div>
+                <div class="channel-info">
             <p class="first-vid1">Talking Tech and AI with Google CEO sundar pichai!</p>
             <p class="first-vid2">marques brownlee</p>
             <p class="first-vid3">3.4M views &middot; 6 months ago</p>
+        </div>
+            
+            
+        </div>
+               
+            
            </div>
                 <div class="video1">
              <img class="thumbnails" src= "thumbnail/3.jpeg ">   
