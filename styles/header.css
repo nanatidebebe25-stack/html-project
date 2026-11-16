@@ -1,0 +1,52 @@
+.header{
+    height:55px;
+
+    display:flex;
+    flex-direction:row;
+    
+    justify-content: space-between;
+    
+}
+.left-section{
+   
+    display:flex;
+    align-items:center;
+}
+
+
+.humbergur-menu {
+    height:24px;
+    margin-right: 25px;
+    margin-left: 25px;
+
+}
+.youtube-logo {
+     height:20px;
+
+}
+.middle-section{
+    background-color: lightpink;
+    flex:1;
+    margin-left:70px;
+    margin-right:35px;
+    max-width:700px;
+    display:flex;
+    align-items: center;
+    
+
+}
+.search-button{
+    height: 40px;
+    width: 60px;
+}
+.voice-search-button
+{height:40px;
+width:40px;
+}
+.right-section{
+    background-color: lightskyblue;
+    width:200px;
+}
+
+
+          
