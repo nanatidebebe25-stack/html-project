@@ -1,0 +1,28 @@
+.tag-container{
+    
+margin-top:90px;
+display:grid;
+grid-template-columns: 1fr 1fr 1fr;
+row-gap: 30px;
+column-gap: 60px;
+align-items: c;
+}
+.tag-card {
+    background-color: rgb(255, 221, 221);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+    
+}
+
+.tag-card h2 {
+    
+    color: rgb(154, 31, 31);
+}
+
+.tag-card code {
+    background-color: rgb(245, 220, 220);
+    padding: 8px;
+    border-radius: 5px;
+   
+}
